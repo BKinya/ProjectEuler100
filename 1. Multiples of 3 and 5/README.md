@@ -2,3 +2,6 @@ If we list all the natural numbers below 10 that are multiples of 3 or 5, we get
 
 Find the sum of all the multiples of 3 or 5 below the provided parameter value number.
 
+The firts solution works for smaller numbers while the second solution works for larger numbers. You can find explanation 
+
+of the solution here: https://medium.com/@TheZaki/project-euler-1-multiples-of-3-and-5-c24cb64071b0
