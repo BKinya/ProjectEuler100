@@ -26,7 +26,7 @@ def sum_of_even_fibonacci(n):
     
     ##iterate to generate numbers of the  fibonacci sequence
     #checking if they are even to add them to the sum
-    while(second_num <= n):
+    while(first_num + second_num <= n):
         next_num = first_num + second_num
         first_num = second_num
         second_num = next_num
@@ -36,7 +36,7 @@ def sum_of_even_fibonacci(n):
             
     return sum
 
-print(sum_of_even_fibonacci(4000000))
+print(sum_of_even_fibonacci(100))
 #sum_of_even_fibonacci(10)
      
         

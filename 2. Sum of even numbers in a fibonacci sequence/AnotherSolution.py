@@ -23,12 +23,11 @@ def sum_of_even_fibonacci(n):
     
     ##iterate to generate numbers of the  fibonacci sequence
     #checking if they are even to add them to the sum
-    while(second_num < n):
+    while(first_num+ second_num < n):
         
         first_num, second_num = second_num, first_num + second_num
         if(second_num%2 ==0):
             sum += second_num
-            
     return sum
 
-print(sum_of_even_fibonacci(10))
+print(sum_of_even_fibonacci(90))
