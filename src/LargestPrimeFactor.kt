@@ -6,7 +6,6 @@ fun main() {
     maxPrimeNumber()
 }
 
-//Not optimal solution
 fun printPrimeFactors(n: Long) {
     var number = n
     while (number % 2L == 0L) {
