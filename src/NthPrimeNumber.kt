@@ -53,10 +53,8 @@ fun findNthPrimeNumber1(num: Long) {
     }
     for (j in 2 until isPrime.size) {
         if (isPrime[j]) {
-            //print("$j ")
             primeNumbers.add(j)
         }
     }
-    print("size = ${primeNumbers.size}")
-    print("10th prime number => ${primeNumbers[n-1]}")
+    print(" ${primeNumbers[n-1]}")
 }
